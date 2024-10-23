@@ -1,0 +1,44 @@
+<apps version="2.0">
+  <app keywords="led,starter,rt-labs,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,flash_4160k,cy8ckit_064b0s2_4343w]">
+    <name>Industrial Ethernet</name>
+    <id>mtb-example-uphy</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/rtlabs-com/mtb-example-uphy</uri>
+    <description>
+      <![CDATA[
+        <b>U-Phy Device Application</b>
+        <br>
+        This application shows how to implement Industrial Ethernet connectivity using the
+        U-Phy middleware. Currently <b>Profinet Device</b> and <b>Ethernet/IP Adapter</b> is supported.
+        <br>
+        <br>
+        The example implements a basic I/O device connecting inputs and outputs to to the EVK buttons and LEDs.
+        Profinet GSDML and EtherNet/IP EDS files are found in the project folder.
+        <br>
+        <br>
+        After building and programming the example, the EVK can be connected to a Profinet or Ethernet/IP network for evaluation.
+        <br>
+        <br>
+        <b>RT-Labs U-Phy middleware</b> enables Industrial Ethernet connectivity for Infineon microcontrollers. Key features:
+        <ul>
+          <li>Profinet, EtherNet/IP, Modbus support</li>
+          <li>Define process data and device characteristics using <a href="https://devicebuilder.rt-labs.com/">U-Phy Device Builder</a></li>
+          <li>Build time generation of GSDML, EDS and device specific code</li>
+          <li><a href="https://github.com/rtlabs-com/mtb-mw-uphy/">U-Phy Middleware</a> - U-Phy MTB Middleware on Github </li>
+          <li><a href="https://rt-labs.com/u-phy/">U-Phy</a> - General introduction to U-Phy concept and features</li>
+        </ul>
+      ]]>
+    </description>
+    <req_capabilities>hal led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>0.6.1 release</num>
+        <commit>release-v0.6.1</commit>
+      </version>
+    </versions>
+  </app>
+</apps>

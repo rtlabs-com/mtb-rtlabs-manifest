@@ -1,0 +1,20 @@
+<middleware>
+  <middleware>
+    <name>rtlabs-uphy-lib</name>
+    <id>rtlabs-uphy-lib</id>
+    <uri>https://github.com/rtlabs-com/mtb-mw-uphy</uri>
+    <desc>RT-Labs UPHY libraries</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp hal</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>0.6.1 release</num>
+        <commit>release-0.6.1</commit>
+      </version>
+    </versions>
+  </middleware>
+</middleware>
