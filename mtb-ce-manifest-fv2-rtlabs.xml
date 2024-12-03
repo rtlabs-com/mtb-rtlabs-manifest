@@ -4,8 +4,7 @@
     <id>mtb-example-uphy</id>
     <category>Getting Started</category>
     <uri>https://github.com/rtlabs-com/mtb-example-uphy</uri>
-    <description>
-      <![CDATA[
+    <description><![CDATA[
         <b>U-Phy Device Application</b>
         <br>
         This application shows how to implement Industrial Ethernet connectivity using the
@@ -27,8 +26,7 @@
           <li><a href="https://github.com/rtlabs-com/mtb-mw-uphy/">U-Phy Middleware</a> - U-Phy MTB Middleware on Github </li>
           <li><a href="https://rt-labs.com/u-phy/">U-Phy</a> - General introduction to U-Phy concept and features</li>
         </ul>
-      ]]>
-    </description>
+      ]]></description>
     <req_capabilities>hal led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
