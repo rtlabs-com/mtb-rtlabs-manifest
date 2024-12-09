@@ -8,8 +8,8 @@
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
-        <num>1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>0.X release</num>
+        <commit>latest-v0.X</commit>
       </version>
       <version flow_version="1.0,2.0">
         <num>0.6.1 release</num>
