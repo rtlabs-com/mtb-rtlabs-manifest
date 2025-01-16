@@ -2,7 +2,7 @@
   <app keywords="led,starter,rt-labs,mtb-flow" req_capabilities_v2="hal led [xmc7000] [flash_8384k,flash_2048k,flash_1024k]">
     <name>Industrial Ethernet</name>
     <id>mtb-example-uphy</id>
-    <category>Getting Started</category>
+    <category>Industrial Communication</category>
     <uri>https://github.com/rtlabs-com/mtb-example-uphy</uri>
     <description><![CDATA[
         <b>U-Phy Device Application</b>
