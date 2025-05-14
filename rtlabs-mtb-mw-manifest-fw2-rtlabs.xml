@@ -12,6 +12,10 @@
         <commit>latest-v0.X</commit>
       </version>
       <version flow_version="1.0,2.0">
+        <num>0.7.1 release</num>
+        <commit>release-v0.7.1</commit>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>0.7.0 release</num>
         <commit>release-v0.7.0</commit>
       </version>
