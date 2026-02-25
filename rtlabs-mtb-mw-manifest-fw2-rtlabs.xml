@@ -12,8 +12,8 @@
         <commit>latest-v0.X</commit>
       </version>
       <version flow_version="1.0,2.0">
-        <num>0.8release</num>
-        <commit>release-v0.8</commit>
+        <num>0.8.0 release</num>
+        <commit>release-v0.8.0</commit>
       </version>
       <version flow_version="1.0,2.0">
         <num>0.7.2 release</num>
