@@ -97,4 +97,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="led,starter,rt-labs,mtb-flow" req_capabilities_v2="hal led [kit_xmc72_evk] [flash_8384k,flash_2048k,flash_1024k]">
+    <name>CANopen stack</name>
+    <id>mtb-example-copen</id>
+    <category>Industrial Communication</category>
+    <uri>https://github.com/rtlabs-com/mtb-example-copen</uri>
+    <description><![CDATA[
+        <b>CANopen Example Application</b>
+        <br>
+        This example demonstrates how to enable CANopen connectivity using the C-Open middleware.
+        <br><br>
+
+        <b>RT-Labs C-Open Middleware</b> enables CANopen connectivity for Infineon
+        microcontrollers. Key features include:
+        <ul>
+        <li><strong>Dual Role Support</strong>: Implement both CANopen master and slave devices using the same stack</li>
+        <li><strong>Network Management (NMT)</strong>: Full support for network initialization, configuration, and state management</li>
+        <li><strong>Service Data Objects (SDO)</strong>: Expedited and segmented transfers for configuration and parameter access</li>
+        <li><strong>Process Data Objects (PDO)</strong>: High-performance real-time data exchange with configurable mapping</li>
+        <li><strong>Emergency Objects (EMCY)</strong>: Error reporting and diagnostic capabilities</li>
+        <li><strong>Heartbeat and Node Guarding</strong>: Network monitoring and fault detection mechanisms</li>
+        <li><strong>Layer Setting Services (LSS)</strong>: Dynamic node-ID assignment and bitrate configuration (CiA 305)</li>
+        <li><strong>Multi-Instance Support</strong>: Run multiple CANopen networks simultaneously</li>
+        <li><strong>Portable Architecture</strong>: Written to a OS abstraction layer</li>
+        <li><strong>Minimal Footprint</strong>: Optimized for resource-constrained embedded systems</li>
+        <li><strong>Production Ready</strong>: Tested with CANopen Conformance Test Tool</li>
+        </ul>
+        <br>
+]]></description>
+    <req_capabilities>hal led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Release 0.8.0</num>
+        <commit>release-v0.8.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
