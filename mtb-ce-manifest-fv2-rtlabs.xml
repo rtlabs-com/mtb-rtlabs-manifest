@@ -34,6 +34,10 @@
         <commit>latest-v0.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>0.8.2 release</num>
+        <commit>release-v0.8.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>0.8.1 release</num>
         <commit>release-v0.8.1</commit>
       </version>
@@ -96,6 +100,14 @@
         <commit>latest-v0.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Release 0.6.2</num>
+        <commit>release-v0.6.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Release 0.6.1</num>
+        <commit>release-v0.6.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Release 0.6.0</num>
         <commit>release-v0.6.0</commit>
       </version>
@@ -134,6 +146,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Release 0.8.1</num>
+        <commit>release-v0.8.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Release 0.8.0</num>
